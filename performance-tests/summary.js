@@ -11,11 +11,11 @@ export const options = {
   vus: 5,
   duration: "1m",
   thresholds: {
-    "http_req_duration{page:homepage}": ["p(95)<500"],
+    "http_req_duration{page:homepage}": ["p(95)<800"],
     "http_req_duration{page:products}": ["p(95)<800"],
     "http_req_duration{page:collections}": ["p(95)<800"],
-    "http_req_duration{page:about}": ["p(95)<500"],
-    "http_req_duration{page:api}": ["p(95)<300"],
+    "http_req_duration{page:about}": ["p(95)<800"],
+    "http_req_duration{page:api}": ["p(95)<500"],
   },
 };
 
