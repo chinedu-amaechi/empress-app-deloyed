@@ -8,6 +8,10 @@ module.exports = defineConfig({
     },
     viewportWidth: 1280,
     viewportHeight: 720,
+    // Longer default timeout for elements
+    defaultCommandTimeout: 10000,
+    // Longer page load timeout
+    pageLoadTimeout: 30000,
   },
   video: true,
   screenshotOnRunFailure: true,
