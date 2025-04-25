@@ -188,6 +188,7 @@ export default function ProductCard({
     <>
       <div
         className="group relative bg-white rounded-lg border border-gray-200 hover:shadow-xl transition-all duration-300 overflow-hidden w-full md:w-72 lg:w-80"
+        data-testid="product-card"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >

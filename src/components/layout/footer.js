@@ -18,7 +18,9 @@ const Footer = () => {
                 src="/Icons/empress_logo_white.png"
                 href="/"
                 alt="Empress Logo"
-                fill
+                // fill
+                width={36}
+                height={36}
                 className="object-contain object-left"
                 priority
               />
@@ -37,7 +39,8 @@ const Footer = () => {
                 <Image
                   src="/Icons/instagram.png"
                   alt="Instagram"
-                  className="w-6 h-6"
+                  width={24}
+                  height={24}
                 />
               </a>
               {/* tik tok */}
@@ -50,7 +53,8 @@ const Footer = () => {
                 <Image
                   src="/Icons/tiktok.png"
                   alt="Instagram"
-                  className="w-6 h-6"
+                  width={24}
+                  height={24}
                 />
               </a>
               {/* Etsy*/}
@@ -60,7 +64,12 @@ const Footer = () => {
                 className="text-white hover:text-gray-200 transition-colors"
               >
                 <span className="sr-only">Instagram</span>
-                <Image src="/Icons/Etsy.png" alt="Etsy" className="w-6 h-6" />
+                <Image
+                  src="/Icons/Etsy.png"
+                  alt="Etsy"
+                  width={24}
+                  height={24}
+                />
               </a>
             </div>
           </div>
@@ -73,7 +82,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-3">
               <li>
                 <Link
-                   href="/collections?collection=Heritage"
+                  href="/collections?collection=Heritage"
                   className="text-base text-white/80 hover:text-white transition-colors duration-200 group flex items-center"
                 >
                   <span className="group-hover:translate-x-1 transition-transform duration-200">
