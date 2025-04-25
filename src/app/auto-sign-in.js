@@ -21,7 +21,7 @@ function AutoSignIn({ children }) {
       }
     }
     checkUser();
-  }, []);
+  }, [setUser]);
   return <>{children}</>;
 }
 

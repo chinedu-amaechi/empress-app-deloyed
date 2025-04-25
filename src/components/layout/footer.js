@@ -34,7 +34,7 @@ const Footer = () => {
                 className="text-white hover:text-gray-200 transition-colors"
               >
                 <span className="sr-only">Instagram</span>
-                <img
+                <Image
                   src="/Icons/instagram.png"
                   alt="Instagram"
                   className="w-6 h-6"
@@ -47,7 +47,7 @@ const Footer = () => {
                 className="text-white hover:text-gray-200 transition-colors"
               >
                 <span className="sr-only">Instagram</span>
-                <img
+                <Image
                   src="/Icons/tiktok.png"
                   alt="Instagram"
                   className="w-6 h-6"
@@ -60,7 +60,7 @@ const Footer = () => {
                 className="text-white hover:text-gray-200 transition-colors"
               >
                 <span className="sr-only">Instagram</span>
-                <img src="/Icons/Etsy.png" alt="Etsy" className="w-6 h-6" />
+                <Image src="/Icons/Etsy.png" alt="Etsy" className="w-6 h-6" />
               </a>
             </div>
           </div>
