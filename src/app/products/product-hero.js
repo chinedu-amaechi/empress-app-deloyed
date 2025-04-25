@@ -1,17 +1,20 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Heading from "@/components/ui/heading";
 
 const ProductHero = () => {
   // Hero slideshow images
-  const heroImages = [
-    "/Empress/Divine/Verdana/IMG_2089 2.jpg",
-    "/Empress/Ethereal/Aurelia/IMG_1959.jpg",
-    "/Empress/Heritage/Suyan/IMG_1802.jpg"
-  ];
+  const heroImages = useMemo(
+    () => [
+      "/Empress/Divine/Verdana/IMG_2089 2.jpg",
+      "/Empress/Ethereal/Aurelia/IMG_1959.jpg",
+      "/Empress/Heritage/Suyan/IMG_1802.jpg",
+    ],
+    []
+  );
 
   // Ref for chatbot trigger
   const chatbotTriggerRef = useRef(null);

@@ -16,9 +16,15 @@ const createWrapper = () => {
       },
     },
   });
-  return ({ children }) => (
+
+  const TestWrapper = ({ children }) => (
     <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
   );
+
+  // Add display name
+  TestWrapper.displayName = "TestWrapper";
+
+  return TestWrapper;
 };
 
 describe("useCollections hook", () => {
