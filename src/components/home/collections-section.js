@@ -47,7 +47,7 @@ const CollectionsSection = () => {
         </div>
 
         {/* Added descriptive subtitle */}
-        <p className="text-gray-600 max-w-xl mx-auto text-lg text-center mb-12">
+        <p className="text-gray-600 max-w-xl mx-auto text-lg text-center mb-12" data-testid="collections-grid">
           Discover our carefully curated collections, each telling a unique
           story of elegance and craftsmanship.
         </p>
